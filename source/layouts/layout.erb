@@ -12,6 +12,8 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+    <%= partial "layouts/navbar" %> <!-- chamando o navbar criado em sources/layout - dessa forma o navbar eh criado em todas as paginas uma vez que esse codigo eh o esqueleto -->
     <%= yield %>
+    <%= partial "layouts/footer" %>
   </body>
 </html>
