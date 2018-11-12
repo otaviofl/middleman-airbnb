@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-e2b1c282.css" rel="stylesheet" />
+    <link href="stylesheets/application-2dbf7ae7.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
@@ -22,8 +22,8 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
+    <a href="https://www.space.com/35844-elon-musk-spacex-announcement-today.html" class="navbar-wagon-item navbar-wagon-link">Trips</a>
+    <a href="profile.html" class="navbar-wagon-item navbar-wagon-link">Profiles</a>
     <a href="about.html" class="navbar-wagon-item navbar-wagon-link">Meet the team</a>
 
     <!-- Profile picture with dropdown list -->
@@ -55,55 +55,102 @@
 </div>
  <!-- chamando o navbar criado em sources/layout - dessa forma o navbar eh criado em todas as paginas uma vez que esse codigo eh o esqueleto -->
     
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.3) 50%), url('https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-0.3.5&s=d405b131f4caf1677d831f8ebfa9576c&auto=format&fit=crop&w=1050&q=80');">
   <div class="banner-content">
-    <h1>Le Wagon Berlin</h1>
-    <p>Learn to code with us in Berlin</p>
-    <a class="btn btn-primary btn-lg">Start now</a>
+    <h1>The Milky Way Galaxy</h1>
+    <p>Why limit yourself to Earth...</p>
+    <a href="#" class="btn btn-primary minha-borda">Search new planet</a>
   </div>
 </div>
 
 
-<div class="container">
+<!-- <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-4">
+    <div class="col-xs-12 col-sm-4"> -->
       <!-- insert <div class="card"> -->
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-  <div class="card-category">Popular</div>
-  <div class="card-description">
-    <h2>Le Wagon Shanghai</h2>
-    <p>Very cool city, the best</p>
+        <!-- <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1517866184231-7ef94c2ea930?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=60a71514d9a29f6c5d06b38adef942ad&auto=format&fit=crop&w=1117&q=80');">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2>The Moon</h2>
+            <p>Closest to Earth you can find.</p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+          <a class="card-link" href="#" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4"> -->
+        <!-- insert <div class="card"> -->
+          <!-- <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+            <div class="card-category">Popular</div>
+            <div class="card-description">
+              <h2>Le Wagon Shanghai</h2>
+              <p>Very cool city, the best</p>
+            </div>
+            <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+            <a class="card-link" href="#" ></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4"> -->
+          <!-- insert <div class="card"> -->
+            <!-- <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+              <div class="card-category">Popular</div>
+              <div class="card-description">
+                <h2>Le Wagon Shanghai</h2>
+                <p>Very cool city, the best</p>
+              </div>
+              <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+              <a class="card-link" href="#" ></a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+
+<div class="container" id="home-flats">
+  <h2 class="text-center">Recent planets</h2>
+  <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('images/moon_home-d0f4c60d.jpg');">
+          <div class="card-category">340K km trip</div>
+          <div class="card-description">
+            <h3>Moon</h3>
+            <p>Closest destination to Earth</p>
+          </div>
+          <img src="images/moon-3572dcc0.jpg" class="card-user" alt="Moon" />
+          <a href="flats/moon.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('images/venus_home-cb6055ed.jpg');">
+          <div class="card-category">261M km trip</div>
+          <div class="card-description">
+            <h3>Venus</h3>
+            <p>Good if you like warm places</p>
+          </div>
+          <img src="images/venus-b74571fd.jpg" class="card-user" alt="Venus" />
+          <a href="flats/venus.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('images/europa_home-fbcca850.jpg');">
+          <div class="card-category">628M km trip</div>
+          <div class="card-description">
+            <h3>Europa Moon</h3>
+            <p>No A/C needed</p>
+          </div>
+          <img src="images/europa-56231b65.jpg" class="card-user" alt="Europa" />
+          <a href="flats/europa.html" class="card-link"></a>
+        </div>
+      </div>
   </div>
-  <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-  <a class="card-link" href="#" ></a>
 </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-  <div class="card-category">Popular</div>
-  <div class="card-description">
-    <h2>Le Wagon Shanghai</h2>
-    <p>Very cool city, the best</p>
-  </div>
-  <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-  <a class="card-link" href="#" ></a>
-</div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-  <div class="card-category">Popular</div>
-  <div class="card-description">
-    <h2>Le Wagon Shanghai</h2>
-    <p>Very cool city, the best</p>
-  </div>
-  <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-  <a class="card-link" href="#" ></a>
-</div>
-    </div>
-  </div>
-</div>
+
+
+
+
+
+
 
 
 
