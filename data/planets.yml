@@ -1,0 +1,21 @@
+moon:
+  name: "Moon"
+  description: "Closest destination to Earth"
+  city_name: "340K km trip"
+  city_slug: "Yoda"
+  wifi: false
+  rating: 4
+venus:
+  name: "Venus"
+  description: "Good if you like warm places"
+  city_name: "261M km trip"
+  city_slug: "silversurfer"
+  wifi: true
+  rating: 3
+europa:
+  name: "Europa Moon"
+  description: "No A/C needed"
+  city_name: "628M km trip"
+  city_slug: "iceman"
+  wifi: true
+  rating: 5

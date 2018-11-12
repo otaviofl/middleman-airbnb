@@ -20,3 +20,12 @@
   opacity: 0.6;
   margin-bottom: 30px;
 }
+
+.minha-borda {
+  border-radius: 4px;
+}
+
+.minha-borda:hover {
+ background-color: black;
+ transition: background 1s ease;
+}
