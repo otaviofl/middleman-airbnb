@@ -23,9 +23,8 @@
 
 .minha-borda {
   border-radius: 4px;
-}
-
-.minha-borda:hover {
- background-color: black;
- transition: background 1s ease;
+    &:hover {
+     background-color: black;
+     transition: background 0.5s ease;
+   }
 }
